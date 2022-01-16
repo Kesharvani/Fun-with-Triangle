@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;600&display=swap');
+body{
+    margin: 0px;
+}
+
 :root{
     --primary-color:#90be12;
     --offwhite-color:#cbd5e1;
