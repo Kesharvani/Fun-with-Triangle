@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;600&display=swap');
+
+body {
+    margin: 0px;
+}
+
+:root {
+    --primary-color: #90be12;
+    --offwhite-color: #cbd5e1;
+    --secondry-color: #475569;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.7rem;
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.unordered-list {
+    list-style: none;
+}
+
+.textalign {
+    text-align: right;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.Link {
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.link-active {
+    font-weight: bold;
+}
+
+#div_id2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#lengthid {
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+#widthid {
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+#hypotenusebtn {
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 10px;
+}
+
+#outputhypotenuseid {
+    color: var(--primary-color);
+}
